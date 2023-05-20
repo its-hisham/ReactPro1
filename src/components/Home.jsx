@@ -1,5 +1,6 @@
 import React from 'react'
 import vg from "../assets/2.webp"
+import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} from "react-icons/ai"
 
 export const Home = () => {
   return (
@@ -23,6 +24,55 @@ export const Home = () => {
        </div>
 
     </div>
+
+    <div className="home3">
+
+        <div>
+            <h1>Who we are</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo neque libero ratione. Inventore maxime atque quibusdam non deserunt quod repudiandae officiis maiores cupiditate. Quibusdam odio omnis optio impedit, expedita sint quod tenetur consectetur eveniet vel molestias, rerum veniam hic architecto laudantium doloribus recusandae commodi! Repellendus velit amet voluptatem vero? Explicabo soluta nobis rem eos repellat magnam fugiat consequatur provident rerum tempora. Aliquam eos praesentium harum. Modi odit optio delectus sit, fugiat architecto nam repudiandae, eos illum, alias suscipit magni ipsum voluptatibus nulla rem obcaecati. Possimus obcaecati numquam iusto blanditiis omnis earum aspernatur autem temporibus, voluptatibus ab nulla! Magni, quis veniam!</p>
+        </div>
+    </div>
+
+    <div className="home4" id='brands'>
+          <div>
+            <h1>Brands</h1>
+            <article>
+                <div style={{
+                    animationDelay:"0.3s"
+                }}>
+                  
+                  <AiFillGoogleCircle/>
+                  <p>Google</p>
+                </div>
+
+                <div style={{
+                    animationDelay:"0.5s"
+                }}>
+                  
+                  <AiFillAmazonCircle/>
+                  <p>Amazon</p>
+                </div>
+
+                <div style={{
+                    animationDelay:"0.7s"
+                }}>
+                  
+                  <AiFillYoutube/>
+                  <p>Youtube</p>
+                </div>
+
+                <div style={{
+                    animationDelay:"1s"
+                }}>
+                  
+                  <AiFillInstagram/>
+                  <p>Instagram</p>
+                </div>
+
+            </article>
+          </div>
+        
+    </div>
     
     
     
@@ -36,3 +86,5 @@ export const Home = () => {
     </>
   )
 }
+
+export default Home;
