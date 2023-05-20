@@ -25,7 +25,7 @@ export const Home = () => {
 
     </div>
 
-    <div className="home3">
+    <div className="home3" id='about'>
 
         <div>
             <h1>Who we are</h1>
