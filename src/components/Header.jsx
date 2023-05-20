@@ -1,15 +1,18 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
    <nav>
     <h1>TechStar.</h1>
     <main>
-        <link to={"/"}> Home </link>
-        <link to={"/contact"}> Contact </link>
-        <link to={"/about"}> About </link>
-        <link to={"/brands"}> Brands </link>
-        <link to={"/services"}> Services </link>
+        <Link to={"/"}> Home </Link>
+        <Link to={"/contact"}> Contact </Link>
+        <Link to={"/#about"}> About </Link>
+        <Link to={"/#brands"}> Brands </Link>
+        <Link to={"/services"}> Services </Link>
+        
+
     </main>
    </nav>
   )
