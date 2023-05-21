@@ -6,18 +6,23 @@ import img2 from "../assets/4.jpg"
 
 const Services = () => {
   return (
-    <div className='services'>Services
+    <div >
     
-    <Carousel>
+    <Carousel infiniteLoop 
+     autoPlay 
+     showThumbs={false}
+     showStatus={false}
+     showArrows={false} 
+     interval={1000}>
 
      <div>
         <img src={img1} alt='Item1'/>
-        <p>Full Stack</p>
+        <p className='legend'>Full Stack</p>
      </div>
 
      <div>
         <img src={img2} alt='Item2'/>
-        <p>Peer-to-peer Support</p>
+        <p className='legend'>Peer-to-peer Support</p>
      </div>
 
 
