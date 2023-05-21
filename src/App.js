@@ -8,6 +8,7 @@ import { Footer} from "./components/Footer";
 import "./styles/App.scss";
 import "./styles/header.scss";
 import "./styles/home.scss";
+import "./styles/footer.scss";
 
 
 function App() {

@@ -11,7 +11,7 @@ export const Footer = () => {
         </div>    
 
         <div>
-            <h5>Follow ud</h5>
+            <h5>Follow us</h5>
 
             <div>
                 <a href="https://www.instagram.com/thenameishisham/" target='blank'>Instagram</a>
